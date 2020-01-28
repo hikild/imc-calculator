@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IMC Calculator</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Secular+One&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <h3 class="text-center">Calcular IMC</h3>
+        <div class="form-group">
+            <label for=""></label>
+            <small id="helpId" class="form-text text-muted">Altura</small>
+            <input type="text" class="form-control" name="altura" id="altura" aria-describedby="helpId"
+                placeholder="Digite sua altura" value=''>
+        </div>
+        <div class="form-group">
+            <label for=""></label>
+            <small id="helpId" class="form-text text-muted">Peso</small>
+            <input type="text" class="form-control" name="peso" id="peso" aria-describedby="helpId"
+                placeholder="Digite seu peso" value=''>
+        </div>
+        <a name="btn-calc" id="btn-calc" class="btn btn-primary" href="#" role="button">Calcular</a>
+        <div class="box" id="box"></div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</html>

@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 300px;
+    background: #fcfcfc;
+    height: 50vh;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+h4 {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #796874;
+    padding: 20px;
+    font-family: 'Secular One', sans-serif;
+    border-top: 2px solid #eeb9da;
+}
+
+h3 {
+    color: #c02163;
+    font-family: 'Secular One', sans-serif;
+    text-transform: uppercase;
+}
+
+h2 {
+    margin-top: 30px;
+    color: #bb195d;
+    font-family: 'Secular One', sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+#btn-calc {
+    border: none;
+    background: #e4699c;
+    color: #fff;
+}
